@@ -4,12 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body {
+            display: block;
+            justify-items: center;
+            align-items: center;
+        }
+        .kotak {
+            display: flex;
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            background-color: lightgreen;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            width: 500px;
+            height: 100vh;
+
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    <center>
-    <marquee>
-    <h1>welcome</h1>
-    </marquee>
-    </center>
+  <h1>tic tac toe</h1>
+  <div class="container">
+  <div class="kotak" style="background-color: plum;">kotak 1</div>
+  <div class="kotak" style="background-color: plum;">kotak 2</div>
+  <div class="kotak" style="background-color: plum;">kotak 3</div>
+  <div class="kotak" style="background-color: brown;">kotak 4</div>
+  <div class="kotak" style="background-color: blueviolet;">kotak 5</div>
+  <div class="kotak" style="background-color: chocolate;">kotak 6</div>
+  <div class="kotak" style="background-color: darkkhaki;">kotak 7</div>
+  <div class="kotak" style="background-color: deeppink;">kotak 8</div>
+  <div class="kotak" style="background-color: silver;">kotak 9</div>
+</div>
 </body>
 </html>
